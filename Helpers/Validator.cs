@@ -20,7 +20,7 @@ namespace Helpers
         return false;
       }
 
-			try
+      try
       {
         // int.Parse will throw an exception if the string is not a valid integer
         int.Parse(args[0]);
